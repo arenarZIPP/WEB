@@ -1,0 +1,25 @@
+* {
+    box-sizing: border-box;
+    font-size: 32px;
+    font-family: Poppins;
+    background-color: #100c2b;
+    color: #7e8fdd;
+}
+.container {
+    border: 10px solid #314394;
+    display: flex;
+    width: 1000px;
+}
+.item {
+    border: 1px solid #1e1650;
+    text-align: center;
+    padding: 10px;
+    flex-basis: 400px;
+
+}
+.item1 {
+    flex-grow: 1;
+}
+.item2 {
+    flex-grow: 3;
+}

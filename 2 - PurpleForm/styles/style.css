@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+.form {
+    background: #1E1F29;
+}
+.contact-me, .input-style, button {
+    color: #FAFAFA;
+}
+.contact-me {
+    font-family: monospace;
+}
+.label-style {
+    color: #AFB2BF;
+}
+.input-style {
+    background-color: #2E2D3D;
+    border-radius: 4px;
+}
+button {
+    background-color: #6C38CC;
+}
+input[type="email"] {
+    background-color: #2142d5;
+}
+input[type="telegram"] {
+    background-color: #99a1f3;
+}
