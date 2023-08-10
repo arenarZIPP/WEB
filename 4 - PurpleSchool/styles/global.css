@@ -1,6 +1,7 @@
 :root {
     --color-primary: #6C38CC;
     --color-primary-hover: #5a2fa9;
+    --color-list-title: #E47AD5;
     --color-bg: #16171D;
     --color-bg-medium: #1E1F29;
     --color-bg-light: #2E2D3D;
@@ -24,4 +25,12 @@ body {
 }
 a {
     text-decoration: none;
+}
+ul {
+    margin: 0;
+    padding: 0;
+}
+p {
+    margin: 0;
+    padding: 0;
 }
