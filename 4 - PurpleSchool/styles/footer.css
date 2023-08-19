@@ -1,7 +1,7 @@
 .footer {
         max-width: var(--max-width);
         margin: 0 auto; 
-        padding: 40px 24px;
+        padding: 60px 24px 100px;
 }
 .footer__logo:hover {
     opacity: 0.6;
@@ -27,6 +27,7 @@
     font-size: 16px;
     font-weight: 400;
     list-style: none;
+    line-height: 120%;
 }
 .footer__list-title {
     color: var(--color-list-title);
@@ -52,9 +53,11 @@
     padding-bottom: 8px;
     font-size: 16px;
     font-weight: 400;
+    line-height: 120%;
 }
 .footer__text {
     color: var(--color-link-hover);
+    margin-top: 36px;
     padding: 8px 0;
     font-size: 16px;
     font-weight: 400; 
@@ -89,6 +92,9 @@
         margin-bottom: 24px;
     }
     .footer__list-main {
-        padding-top: 12px;
+        padding-bottom: 12px;
+    }
+    .footer__list-title {
+        padding-bottom: 18px;
     }
 }
