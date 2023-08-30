@@ -1,7 +1,10 @@
+.section__footer {
+    background-color: #101114;
+}
 .footer {
-        max-width: var(--max-width);
-        margin: 0 auto; 
-        padding: 60px 24px 100px;
+    max-width: var(--max-width);
+    margin: 0 auto; 
+    padding: 60px 24px 100px;
 }
 .footer__logo:hover {
     opacity: 0.6;
