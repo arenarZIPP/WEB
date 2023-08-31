@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="./styles/components.css">
     <link rel="stylesheet" href="./styles/blog.css">
     <link rel="stylesheet" href="./styles/stats.css">
+    <link rel="stylesheet" href="./styles/catalog.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;700&display=swap" rel="stylesheet">
@@ -50,7 +51,52 @@
             </div>
         </div>
     </section>
-    <div class="stats">
+    <section class="section section_dark">
+        <div class="blog__top_section">
+            <div>
+                <p class="footer__list-title">Выбрать курс</p>
+            </div>
+            <div>
+                <h1 class="blog__top_section-title">Каталог курсов</h1>
+            </div>
+            <div class="catalog__courses">
+                <ul class="catalog__courses_list">
+                    <a href="#"><li class="catalog__courses_list_item">Все</li></a>
+                    <li class="catalog__courses_list_item">Frontend</li>
+                    <li class="catalog__courses_list_item">Backend</li>
+                    <li class="catalog__courses_list_item">DevOps</li>
+                    <li class="catalog__courses_list_item">Soft Skills</li>
+                </ul>
+            </div>
+            <div class="catalog__cart">
+                <img src="./img/cart_logo.svg" alt="cart_logo">
+                <div class="catalog__cart_description">
+                    <h3 class="catalog__cart_name">React + Next.js - с нуля</h3>
+                    <p class="catalog__cart_author">Антон Ларичев</p>
+                    <div class="catalog__cart_stats">
+                        <img src="./img/Iconly/Regular/Outline/Time Circle.svg" alt="time_icon">
+                        <p class="catalog__cart_time">18 часов лекций</p>
+                    </div>
+                    <div class="catalog__cart_rating">
+                        <div class="catalog__cart_rating_left">
+                            <img class="catalog__cart_rating_logo" src="./img/Linear/Like/Star.svg" alt="star">
+                            <p class="catalog__cart_score">4.9</p>
+                        </div>
+                        <p class="catalog__cart_rating_right">Frontend</p>
+                    </div>
+                </div>
+                <div class="catalog__cart_bot">
+                    <div class="catalog__cart_bot_left">
+                        <p>от 1 890 ₽</p>
+                    </div>
+                    <div class="catalog__cart_bot_right">
+                        <button class="button_primary">Подробнее</button>
+                    </div>
+                </div>
+            </div>
+        </div> 
+    </section>
+    <section class="stats">
         <section class="section section__stats">
             <div class="blog__top_section">
                 <div>
@@ -145,7 +191,7 @@
                 </div>
             </div>
         </section>
-    </div>
+    </section>
     <section class="section section_dark">
         <div class="blog__top_section">
             <div>

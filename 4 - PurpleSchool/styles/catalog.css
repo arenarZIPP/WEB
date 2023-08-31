@@ -1,0 +1,70 @@
+.catalog__courses {
+    margin-top: 48px;
+}
+.catalog__courses_list {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    color: var(--color-text);
+    gap: 24px;
+    align-items: center;
+
+}
+.catalog__courses_list_item {
+    border-radius: var(--border-8);
+    padding: 8px 16px;
+    border: 1px solid var(--color-stroke);
+}
+.catalog__courses_list_item:first-child {
+    color: var(--color-text);
+    background-color: var(--color-primary);
+    padding: 8px 16px;
+}
+.catalog__courses_list_item:hover {
+    cursor: pointer;
+    background: var(--color-bg-light);
+}
+
+.catalog__cart {
+    width: 360px;
+}
+.catalog__cart_name {
+    color: var(--color-text);
+}
+.catalog__cart_author {
+    color: var(--color-stroke);
+}
+.catalog__cart_stats {
+    display: flex;
+}
+.catalog__cart_time {
+    color: var(--color-text);
+    margin-left: 8px;
+    font-size: 16px;
+    text-align: center;
+}
+.catalog__cart_rating {
+    display: flex;
+    width: 166px;
+}
+.catalog__cart_rating_left {
+    display: flex;
+    border-radius: 17px;
+    border: 1px solid var(--color-stroke);
+    padding: 6px 12px;
+}
+.catalog__cart_rating_right {
+    border-radius: 17px;
+    border: 1px solid var(--color-stroke);
+    padding: 6px 12px;
+    color: var(--color-text);
+    margin-left: 12px;
+    text-align: center;
+}
+.catalog__cart_score {
+    margin-left: 4px;
+    font-size: 16px;
+    color: var(--color-text);
+    text-align: center;
+    
+}
