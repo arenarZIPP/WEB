@@ -29,6 +29,7 @@
     border-radius: var(--border-8);
     overflow: hidden;
     width: 360px;
+    margin-bottom: 35px;
     background-color: var(--color-bg-medium);
 }
 .catalog__cart_description {
@@ -88,4 +89,9 @@
     display: flex;
     justify-content: space-between;
     background-color: var(--color-bg-light);
+}
+
+.catalog__courses_flex {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
 }
